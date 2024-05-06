@@ -6,7 +6,7 @@ import os
 haar_cascade = cv.CascadeClassifier("haar_face.xml")
 #atr = np.load("atributos.npy", allow_pickle=True)
 #ids = np.load("ids.npy")
-pessoas = os.listdir(r"C:\Users\DELL\Desktop\Face-Reco-openCV\Faces\train")
+pessoas = os.listdir(r"C:\Users\DELL\Desktop\Face-Reco-openCV\train")
 faceRec = cv.face.LBPHFaceRecognizer_create()
 faceRec.read("rostos_treinados.yml")
 
