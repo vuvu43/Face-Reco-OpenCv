@@ -11,5 +11,6 @@ face_train.py
 3º:  abrir o srcipt "face_recognition.py" e mudar a vairável path_to_img para o caminho de uma imagem de validação
 
 4ª:  executar "face_recognition.py"
-
-5º:  Pronto
+```console
+face_recognition.py
+```
