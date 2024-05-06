@@ -3,7 +3,7 @@ import os
 import numpy as np
 
 #Listando o nome das pessoas que o modelo será treinado para reconhecer
-DIR = r"C:\Users\DELL\Desktop\Face-Reco-openCV\Faces\train"
+DIR = r"C:\Users\DELL\Desktop\Face-Reco-openCV\train"
 pessoas = [x for x in os.listdir(DIR)]
 
 
